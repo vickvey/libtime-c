@@ -1,3 +1,7 @@
+# Added by vickvey
+.vscode/
+build/
+
 # Prerequisites
 *.d
 
