@@ -1,10 +1,12 @@
 #include <time.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "../include/curr_time.h"
 
 int get_current_time(char *time_str_rfc2822, size_t size) {
     if (size < MIN_BUFFER_SIZE) {
         fprintf(stderr, "Error: Buffer size should be at least %d bytes.\n", MIN_BUFFER_SIZE);
+        exit(EXIT_FAILURE);
         return 1; // FAILURE
     }
 
