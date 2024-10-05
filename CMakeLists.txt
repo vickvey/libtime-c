@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(time_api C)
+project(libtime-c C)
 
 # Add include directory
 include_directories(include)
@@ -11,7 +11,7 @@ add_library(curr_time STATIC src/curr_time.c)
 set_target_properties(curr_time PROPERTIES OUTPUT_NAME "curr_time")
 
 # Specify where to install the library and header files
-install(TARGETS curr_time 
+install(TARGETS time-c 
         ARCHIVE DESTINATION lib)  # For static libraries
 
 install(DIRECTORY include/ DESTINATION include)  # Install header files
