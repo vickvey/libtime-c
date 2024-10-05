@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "curr_time.h"
+#include "time-c.h"
 
 int main() {
     char time[50];
