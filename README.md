@@ -24,21 +24,21 @@ This will install the library in `/usr/local/lib` and the header files in `/usr/
 1. Include the header:
 In your C source file, include the header:
 ```c
-#include <curr_time.h>
+#include <time-c.h>
 ```
 
 2. Link the library:
 When compiling your C project, link the curr_time library:
    
 ```bash
-gcc your_program.c -o your_program -lcurr_time
+gcc your_program.c -o your_program -ltime-c
 ```
 
 ## Example Usage
 
 ```c
 #include <stdio.h>
-#include <curr_time.h>
+#include <time-c.h>
 
 int main() {
     char buffer[100];
@@ -51,13 +51,13 @@ int main() {
 
 compile it with:
 ```bash
-gcc example.c -o example -lcurr_time
+gcc example.c -o example -ltime-c
 ./example
 ```
 
 ## Uninstall the library
 ```bash
-sudo rm /usr/local/lib/libcurr_time.a
-sudo rm /usr/local/include/curr_time.h
+sudo rm /usr/local/lib/libtime-c.a
+sudo rm /usr/local/include/time-c.h
 ```
 
