@@ -6,11 +6,11 @@ A C library to get the current time in RFC 2822 format.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/vickvey/time_api.git
+   git clone https://github.com/vickvey/libtime-c.git
 
 2. Build the project:
    ```bash
-   cd time_api
+   cd libtime-c/
    mkdir build
    cd build
    cmake ..
