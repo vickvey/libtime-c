@@ -1,7 +1,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "../include/curr_time.h"
+#include "../include/time-c.h"
 
 int get_current_time(char *time_str_rfc2822, size_t size) {
     if (size < MIN_BUFFER_SIZE) {

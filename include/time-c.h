@@ -1,8 +1,7 @@
-#include <stdio.h>
-#include <stddef.h> // For size_t
-
 #ifndef VICKVEY_TIME_API_CURR_TIME_H_
 #define VICKVEY_TIME_API_CURR_TIME_H_
+#include <stdio.h>
+#include <stddef.h> // For size_t
 
 #define MIN_BUFFER_SIZE 32
 
